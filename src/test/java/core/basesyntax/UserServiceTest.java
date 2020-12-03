@@ -31,7 +31,7 @@ public class UserServiceTest {
             expectedEx.expectMessage("User with given email doesn't exist");
             userService.getUserScore(EMPTY_ARRAY, "vincent@mail.us");
         } catch (ClassNotFoundException e) {
-            Assert.fail("Should create a class called 'core.basesyntax.exception.UserNotFoundException'.");
+            Assert.fail("Should create a class called 'UserNotFoundException'.");
         }
     }
 
