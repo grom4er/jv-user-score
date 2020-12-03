@@ -31,7 +31,7 @@ public class UserServiceTest {
             expectedEx.expectMessage("User with given email doesn't exist");
             userService.getUserScore(EMPTY_ARRAY, "vincent@mail.us");
         } catch (ClassNotFoundException e) {
-            Assert.fail("Should create a class called 'UserNotFoundException'.");
+            Assert.fail("Should create a class called 'core.basesyntax.exception.UserNotFoundException'.");
         }
     }
 
@@ -50,7 +50,7 @@ public class UserServiceTest {
         try {
             Class.forName(EXCEPTION_CLASS);
         } catch (ClassNotFoundException e) {
-            Assert.fail("You should create class called 'UserNotFoundException' inside of exception package");
+            Assert.fail("You should create class called 'core.basesyntax.exception.UserNotFoundException' inside of exception package");
         }
     }
 

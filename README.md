@@ -7,7 +7,7 @@ email and score stored as single string, so record looks like this : "someEmail@
 `userScore` is in integer format and has value in range `0` - `Integer.MAX_VALUE`;
 You task here is to find out if records contains user with certain email that you 
 receive, if user exists return his score in int format, if not, throw exception 
-`UserNotFoundException` with message "User with given email doesn't exist"
+`core.basesyntax.exception.UserNotFoundException` with message "User with given email doesn't exist"
 (since it's our custom logic let's create our own, unchecked, exception).
  
  
@@ -34,7 +34,7 @@ email = invalidEmail@gmail.com;
 ```
  ```
 Output example:  
-UserNotFoundException: User with given email doesn't exist
+core.basesyntax.exception.UserNotFoundException: User with given email doesn't exist
 ```
 
 ### [Try to avoid these common mistakes while solving task](https://mate-academy.github.io/jv-program-common-mistakes/java-core/exceptions/user-score)
