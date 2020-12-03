@@ -50,7 +50,7 @@ public class UserServiceTest {
         try {
             Class.forName(EXCEPTION_CLASS);
         } catch (ClassNotFoundException e) {
-            Assert.fail("You should create class called 'core.basesyntax.exception.UserNotFoundException' inside of exception package");
+            Assert.fail("You should create class called 'UserNotFoundException' inside of exception package");
         }
     }
 

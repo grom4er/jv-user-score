@@ -34,7 +34,7 @@ email = invalidEmail@gmail.com;
 ```
  ```
 Output example:  
-core.basesyntax.exception.UserNotFoundException: User with given email doesn't exist
+UserNotFoundException: User with given email doesn't exist
 ```
 
 ### [Try to avoid these common mistakes while solving task](https://mate-academy.github.io/jv-program-common-mistakes/java-core/exceptions/user-score)
